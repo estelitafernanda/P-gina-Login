@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+}
+.quadrado{
+    width: 430px;
+    height: 999px;
+    background: #FFF;
+}
+.status-bar{
+    width: 430px;
+    height: 39px;
+    flex-shrink: 0;
+}
+.time-style{
+    display: flex;
+    width: 54px;
+    padding-top: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    width: 54px;
+    flex-shrink: 0;
+    color: var(--text-dark-100, #04021D);
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+.cellular-connection{
+    width: 17px;
+    height: 10.667px;
+    margin-left: 360px;
+    flex-shrink: 0;
+    fill: var(--text-dark-100, #04021D);
+}
+.wifi{
+    width: 15.333px;
+    height: 11px;
+    margin-left: 380px;
+    flex-shrink: 0;
+    fill: var(--text-dark-100, #04021D);
+}
+.battery{
+    width: 24.328px;
+    height: 11.333px;
+    margin-left: 400px;
+    flex-shrink: 0;
+}
+.i-os-icon-24-chevron-left-lg{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.plantar-1{
+    width: 121px;
+    height: 120px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    background: url(<plantar1.png>), lightgray 70% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.compost-by{
+    width: 134px;
+    color: #000;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 104.167% */
+}
+.login{
+    color: var(--titulos, #161719);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 104.167% */
+}
+.usuario{
+    width: 66px;
+    height: 34px;
+    flex-shrink: 0;
+    color: #04021D;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.rectangle-3{
+    width: 279px;
+    height: 1.889px;
+    flex-shrink: 0;
+    background: #525456;
+}
+.senha{
+    width: 66px;
+    height: 34px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.rectangle-4{
+    width: 284px;
+    height: 1.895px;
+    flex-shrink: 0;
+    background: #525456;
+}
+.esqueceu-a-senha{
+    color: #BC0F0F;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.rectangle-6{
+    width: 263px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #3D1D0B;
+}
